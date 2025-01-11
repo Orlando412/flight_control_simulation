@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/orland/flight_control_simulation/build",
+  "command": "/usr/bin/g++  -I/home/orland/flight_control_simulation/include -I/usr/include/eigen3 -g -o CMakeFiles/flight_control_simulation.dir/main.cpp.o -c /home/orland/flight_control_simulation/main.cpp",
+  "file": "/home/orland/flight_control_simulation/main.cpp"
+},
+{
+  "directory": "/home/orland/flight_control_simulation/build",
+  "command": "/usr/bin/g++  -I/home/orland/flight_control_simulation/include -I/usr/include/eigen3 -g -o CMakeFiles/flight_control_simulation.dir/src/gps_sensor.cpp.o -c /home/orland/flight_control_simulation/src/gps_sensor.cpp",
+  "file": "/home/orland/flight_control_simulation/src/gps_sensor.cpp"
+},
+{
+  "directory": "/home/orland/flight_control_simulation/build",
+  "command": "/usr/bin/g++  -I/home/orland/flight_control_simulation/include -I/usr/include/eigen3 -g -o CMakeFiles/flight_control_simulation.dir/src/flight_dynamics.cpp.o -c /home/orland/flight_control_simulation/src/flight_dynamics.cpp",
+  "file": "/home/orland/flight_control_simulation/src/flight_dynamics.cpp"
+},
+{
+  "directory": "/home/orland/flight_control_simulation/build",
+  "command": "/usr/bin/g++  -I/home/orland/flight_control_simulation/include -I/usr/include/eigen3 -g -o CMakeFiles/flight_control_simulation.dir/src/sensor_model.cpp.o -c /home/orland/flight_control_simulation/src/sensor_model.cpp",
+  "file": "/home/orland/flight_control_simulation/src/sensor_model.cpp"
+},
+{
+  "directory": "/home/orland/flight_control_simulation/build",
+  "command": "/usr/bin/g++  -I/home/orland/flight_control_simulation/include -I/usr/include/eigen3 -g -o CMakeFiles/flight_control_simulation.dir/src/control_system.cpp.o -c /home/orland/flight_control_simulation/src/control_system.cpp",
+  "file": "/home/orland/flight_control_simulation/src/control_system.cpp"
+},
+{
+  "directory": "/home/orland/flight_control_simulation/build",
+  "command": "/usr/bin/g++  -I/home/orland/flight_control_simulation/include -I/usr/include/eigen3 -g -o CMakeFiles/flight_control_simulation.dir/src/imu_sensor.cpp.o -c /home/orland/flight_control_simulation/src/imu_sensor.cpp",
+  "file": "/home/orland/flight_control_simulation/src/imu_sensor.cpp"
+}
+]
