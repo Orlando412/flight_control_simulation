@@ -1,0 +1,109 @@
+Overview
+
+The Real-Time Flight Control Simulation is a project designed to simulate and visualize the flight dynamics of an aircraft in real-time. This application integrates flight physics, sensor data, and real-time visualization tools to demonstrate various aspects of flight behavior, including trajectory, altitude changes, and IMU data.
+
+The project is built using C++ for the core simulation and Python for real-time data visualization.
+
+Features
+
+Core Features
+
+Flight Dynamics Simulation: Simulates key flight parameters such as altitude, velocity, IMU (Inertial Measurement Unit) data, and trajectory.
+
+Real-Time Visualization: Plots and visualizes data such as altitude, IMU acceleration, angular velocity, and flight trajectory using Python's matplotlib.
+
+Modular Architecture: Includes separate modules for GPS sensors, IMU sensors, and flight dynamics.
+
+Advanced Visualization
+
+2D plots for:
+
+Altitude over Time
+
+Flight Trajectory (Latitude vs. Longitude)
+
+IMU Acceleration
+
+IMU Angular Velocity
+
+Tight layout for displaying multiple subplots.
+
+Extensibility
+
+Ability to simulate real-world conditions by adding sensor noise or environmental factors like wind.
+
+Open for integration with 3D visualization using OpenGL. 
+
+flight_control_simulation/
+├── build/                # Build directory for compiled files
+├── include/              # Header files for simulation modules
+│   ├── control_system.h  # Control system definitions
+│   ├── flight_dynamics.h # Flight dynamics logic
+│   ├── gps_sensor.h      # GPS sensor functionality
+│   ├── imu_sensor.h      # IMU sensor functionality
+│   └── sensor_model.h    # General sensor model
+├── src/                  # Source files for simulation modules
+│   ├── control_system.cpp
+│   ├── flight_dynamics.cpp
+│   ├── gps_sensor.cpp
+│   ├── imu_sensor.cpp
+│   └── sensor_model.cpp
+├── sim_data.csv          # Sample flight data for testing
+├── visualmodel.py        # Python script for data visualization
+├── CMakeLists.txt        # CMake configuration file
+├── Makefile              # Makefile for building the project
+└── README.md             # Project documentation (this file)
+
+Setup Instructions
+
+Prerequisites
+
+Operating System: Linux (WSL or native)
+
+Dependencies:
+
+C++ Compiler (GCC or Clang)
+
+Python 3.10 or newer
+
+Python Libraries: matplotlib, pandas
+
+CMake 3.22 or newer
+
+OpenGL libraries (optional for future 3D visualization)
+
+Usage
+
+Simulation
+
+The simulation generates and outputs data related to:
+
+GPS coordinates (latitude, longitude)
+
+Altitude
+
+IMU Acceleration (X, Y, Z axes)
+
+IMU Angular Velocity (X, Y, Z axes)
+
+Visualization
+
+The visualmodel.py script plots:
+
+Altitude vs. Time
+
+Flight Trajectory
+
+IMU Acceleration
+
+IMU Angular Velocity
+
+Future Improvements
+
+Live Sensor Updates: Simulate real-time sensor data streaming.
+
+3D Visualization: Add OpenGL support for 3D flight trajectory visualization.
+
+Environmental Effects: Include wind, weather, and turbulence simulation.
+
+Custom Controls: Add a GUI for adjusting parameters like speed, altitude, and environmental factors.
